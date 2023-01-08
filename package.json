@@ -1,0 +1,20 @@
+{
+  "name": "cypress---to-do---complete-project",
+  "version": "1.0.0",
+  "description": "To automate to do, simple website ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:locally": "npx cypress run --e2e --browser chrome",
+    "test:terminal": "npx cypress run",
+    "test:report": "npx cypress run --record --key a9ce5210-dfc2-4d16-838f-d3fb6539ec0f"
+  },
+  "author": "Khamaiseh",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
